@@ -26,3 +26,6 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+play_again = input("Do you want to play again? (yes/no): ")
+    if play_again.lower() != "yes":
+        break  # Exit the loop if the user does not want to play again
